@@ -1,0 +1,30 @@
+
+HTML{background-color: lightblue;}
+header {
+    background-color: white;
+    padding: 10px;
+    border: solid #000000 2px;
+    margin: 5px;
+   overflow: hidden;  
+   border-radius: 0px 0px 10px 10px;
+}
+.PhotoBorder {
+    position: relative;
+    width:100%;
+    
+}
+.Photos {
+    border-radius: 10px;
+    background-color: darkblue;
+    box-shadow: 4px 4px 4px black;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+
+}
+.AugustaUniversity {
+    position: relative;
+    float: center;
+    padding: 10px;
+}
