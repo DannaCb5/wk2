@@ -1,5 +1,12 @@
 
 HTML{background-color: rgb(2, 59, 78);}
+.Title {
+    font-size: 3.5rem;
+    color:white;
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
 header, footer {
     padding: 10px;
     border: solid #000000 2px;
@@ -7,44 +14,60 @@ header, footer {
    overflow: hidden;  
    border-radius: 5px 5px 5px 5px;
 }
-
+.body-wrapper {
+    width: 90vw;
+}
 header {
     background-color: rgb(14, 101, 104);
     position: relative;
     float: left;
     width: 20%;
 }
-main {
-    float: right;
-    width: 80%;
-}
-footer {
-    background-color: rgb(223, 75, 7);
-}
 .NavBar {
     display: inline-block;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     color:black;
     letter-spacing: .5px;
+    height: 453px;
+    box-shadow: 0px 0px 40px darkblue;
+}
+main {
+    float: left;
+    width: 73%;
+}
+footer {
+    box-shadow: 0px 0px 40px darkblue;
+    background-color: rgb(223, 75, 7);
+}
+.AboutRudson, .Hobbies {
+    color:white;
+    font-size: 1.25rem;
+    position: relative;
+    top: -20px;
+    left: 40px;
 
 }
 .Teams, .Movies, .Anime {
+    margin: 20px 0px;
     position: relative;
     float: left;
+    left: -20px;
     background-color:whitesmoke;
-    padding: 5px;
+    padding: 30px 20px 30px 20px;
     border: solid black 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 10px; 
     text-transform: uppercase;
+    list-style: none;
+    box-shadow: 0px 0px 20px darkblue;
 }
-.AboutRudson, .Hobbies, .Title {
-    color:white;
-    position: relative;
-    left: 40px;
-    width: 80vw;
+
+.Bio, .Action-Fav, .Fav-Team, .Anime-Fav {
+    font-size: 1.5rem;
+
 }
+
 .PhotoBorder {
     position: relative;
     width: 90vw;
@@ -112,7 +135,7 @@ footer {
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-delay: .5s;
-    height: 50vh;
+    height: 30vh;
     animation-iteration-count: infinite;
     border-radius: 10px 10px 10px 10px;
     border: solid rgb(11, 54, 11) 2px;
