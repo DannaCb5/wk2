@@ -1,7 +1,7 @@
 
 HTML{background-color: rgb(2, 59, 78);}
 .Title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:white;
     position: relative;
     left: 40px;
@@ -75,9 +75,7 @@ footer {
 }
 
 #Bio, #Action-Fav, #Fav-Team, #Anime-Fav {
-    font-size: 1.5rem;
-
-
+    font-size: 1.25rem;
 }
 
 .PhotoBorder {
