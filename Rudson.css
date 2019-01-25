@@ -7,34 +7,45 @@ HTML{background-color: rgb(2, 59, 78);}
     left: 40px;
     top: -20px;
 }
-header, footer {
+footer {
     padding: 10px;
     border: solid #000000 2px;
     margin: 20px;
    overflow: hidden;  
    border-radius: 5px 5px 5px 5px;
 }
+header {
+
+    margin: 20px;
+   overflow: hidden;  
+   border-radius: 5px 5px 5px 5px;
+}
 .body-wrapper {
     width: 90vw;
+
 }
 header {
-    background-color: rgb(14, 101, 104);
+
     position: relative;
     float: left;
-    width: 20%;
+    width: 30%;
 }
 .NavBar {
-    display: inline-block;
+    background-color: rgb(14, 101, 104);
+    border: solid #000000 2px;
     font-size: 1rem;
     font-weight: 400;
-    color:black;
+    border-radius: 20px;
     letter-spacing: .5px;
     height: 453px;
-    box-shadow: 0px 0px 40px darkblue;
+    padding: 10px;
+    margin: 15px;
+
+    box-shadow: 0px 0px 40px darkblue; 
 }
 main {
     float: left;
-    width: 73%;
+    width: 60%;
 }
 footer {
     box-shadow: 0px 0px 40px darkblue;
@@ -49,7 +60,7 @@ footer {
 
 }
 .Teams, .Movies, .Anime {
-    margin: 20px 0px;
+    margin: 25px 0px;
     position: relative;
     float: left;
     left: -20px;
@@ -63,8 +74,9 @@ footer {
     box-shadow: 0px 0px 20px darkblue;
 }
 
-.Bio, .Action-Fav, .Fav-Team, .Anime-Fav {
+#Bio, #Action-Fav, #Fav-Team, #Anime-Fav {
     font-size: 1.5rem;
+
 
 }
 
